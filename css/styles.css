@@ -66,7 +66,7 @@
 
   .landing{
       background-color: var(--light-bg);
-      padding: 2% 8%;
+      padding: 8% 6%;
   }
   .landing .profile {
     /* background-image: url('../images/logo.jpg'); */
@@ -76,7 +76,7 @@
   }
   .name p {
     font-family: 'Poppins', sans-serif;
-
+    font-weight: 600;
   }
   .name p span.dot{
     width: 10px;
@@ -91,4 +91,62 @@
     height: 7px;
     width: 11%;
     background-color: #007bff;
+}
+.landing .profile-description{
+    color: #666774;
+    padding-left: 12%;
+}
+.description-title{
+    font-family: 'Poppins', sans-serif;
+
+}
+.description-title span{
+    height: 2px;
+    width: 80px;
+    background-color: #666774;
+    position: absolute;
+}
+.profile-description h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #EAEAEB;
+    font-size: 21px;
+    word-spacing: 2px;
+}
+.desc-text{
+    font-size: 14px;
+    margin-top: 8%;
+    font-family: 'Poppins', sans-serif;
+}
+.social-list{
+list-style: none;
+padding: 16% 5% 16% 5%  ;
+padding-left: 0;
+
+}
+.social-list li {
+    float: left;
+    margin: 0 8px;
+}
+.social-list li a {
+    color: white;
+    font-size: 24px;
+}
+.social-list li:first{
+    margin-left: 0;
+}
+.profile-description h6 {
+    color:#007bff;
+    text-decoration: underline;
+    font-family: 'Poppins', sans-serif;
+
+}
+.my-story-a{
+    display: inline-flex;
+    padding: 8% 0;
+
+}
+.my-story-a span{
+    margin-left: 16px;
+    color:#007bff;
+    /* border-bottom: 1px solid #007bff; */
 }
