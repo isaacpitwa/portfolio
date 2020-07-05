@@ -1,6 +1,7 @@
 :root {
     --font-family: 'neue-Haas',Arial, Helvetica, sans-serif;
     --light-bg:#333546;
+    --primary-color:#007bff;
   }
 @font-face {
     font-family: "neue-Haas";
@@ -12,7 +13,9 @@
     }
 *{
     font-family: 'neue-Haas',Arial, Helvetica, sans-serif;
-    
+}
+body{
+    background-color: var(--light-bg)
 }
 .header{
     background-color: #333546;
@@ -20,7 +23,7 @@
     overflow: hidden;
     padding: 20px 5%;
 }
-.header a{
+.header a {
     float: left;
     text-align: center;
     padding: 12px;
@@ -39,6 +42,7 @@
 .header a.logo {
     font-size: 25px;
     font-weight: bold;
+    padding: 0 12px;
   }
   .header .header-nav-list {
       float: right;
@@ -67,6 +71,12 @@
   .landing{
       background-color: var(--light-bg);
       padding: 8% 6%;
+      clip-path: polygon(
+        0 0, /* left top */
+        100% 0, /* right top */ 
+        100% 98%, /* right bottom */
+        0 94% /* left bottom */
+      );
   }
   .landing .profile {
     /* background-image: url('../images/logo.jpg'); */
@@ -87,40 +97,46 @@
     margin-top: 35px;
     margin-left: 3px;
   }
-.name .underline{
+.name .underline {
     height: 7px;
     width: 11%;
     background-color: #007bff;
 }
-.landing .profile-description{
+.landing .profile-description , .container-right {
     color: #666774;
     padding-left: 12%;
 }
-.description-title{
+.content-label {
     font-family: 'Poppins', sans-serif;
-
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 3%;
+    letter-spacing: .2rem;
+    font-size: 14px;
+    color: #666774;
 }
-.description-title span{
+.content-label .dash {
     height: 2px;
-    width: 80px;
+    width: 10px;
     background-color: #666774;
-    position: absolute;
+    margin-right: .9rem;
 }
-.profile-description h4 {
+.profile-description h4,.col-md-6 h4 {
     font-family: 'Poppins', sans-serif;
     color: #EAEAEB;
     font-size: 21px;
     word-spacing: 2px;
 }
-.desc-text{
+.desc-text {
     font-size: 14px;
     margin-top: 8%;
     font-family: 'Poppins', sans-serif;
+    color: #666774;
 }
-.social-list{
-list-style: none;
-padding: 16% 5% 16% 5%  ;
-padding-left: 0;
+.social-list {
+    list-style: none;
+    padding: 16% 5% 16% 5%  ;
+    padding-left: 0;
 
 }
 .social-list li {
@@ -131,22 +147,65 @@ padding-left: 0;
     color: white;
     font-size: 24px;
 }
-.social-list li:first{
+.social-list li:first {
     margin-left: 0;
 }
-.profile-description h6 {
+.profile-description h6 , .email-contact h6 {
     color:#007bff;
     text-decoration: underline;
     font-family: 'Poppins', sans-serif;
 
 }
-.my-story-a{
+.my-story-a, .email-contact, .stats,.stat-item {
     display: inline-flex;
     padding: 8% 0;
-
 }
-.my-story-a span{
+.my-story-a span , .email-contact span {
     margin-left: 16px;
     color:#007bff;
     /* border-bottom: 1px solid #007bff; */
+}
+
+/* Experience Stat section styles */
+.experience-stat {
+    background-color: #252634;
+    padding: 8% 6%;
+}
+.email-contact {
+    margin-top: 3.2rem;
+}
+.stats  .count {
+    font-size: 4rem;
+    color: var(--primary-color);   
+    margin-bottom: .3rem;
+}
+.stats .stat-label {
+    margin-left: 1.5rem;
+    color: white;
+    font-size: .76rem;
+    letter-spacing: .05rem;
+}
+.stat-item {
+    margin-left: 14%;
+    align-items: flex-end;
+
+}
+.stats .stat-item:first-child{ 
+    margin-left: 0;
+}
+.card-wrapper{
+    position: absolute;
+    padding: 0% 6%;
+    width: -webkit-fill-available;
+}
+.skill-card {
+    padding: 6%;
+    background-color: #424757;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    margin: 0 4%;
+}
+.projects{
+    background-color: var(--light-bg);
 }
