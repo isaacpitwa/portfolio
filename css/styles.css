@@ -42,6 +42,7 @@ body{
 .header a.logo {
     font-size: 25px;
     font-weight: bold;
+    padding: 0 12px;
   }
   .header .header-nav-list {
       float: right;
@@ -191,4 +192,20 @@ body{
 }
 .stats .stat-item:first-child{ 
     margin-left: 0;
+}
+.card-wrapper{
+    position: absolute;
+    padding: 0% 6%;
+    width: -webkit-fill-available;
+}
+.skill-card {
+    padding: 6%;
+    background-color: #424757;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    margin: 0 4%;
+}
+.projects{
+    background-color: var(--light-bg);
 }
