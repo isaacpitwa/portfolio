@@ -23,7 +23,7 @@ body{
     overflow: hidden;
     padding: 20px 5%;
 }
-.header a{
+.header a {
     float: left;
     text-align: center;
     padding: 12px;
@@ -96,16 +96,16 @@ body{
     margin-top: 35px;
     margin-left: 3px;
   }
-.name .underline{
+.name .underline {
     height: 7px;
     width: 11%;
     background-color: #007bff;
 }
-.landing .profile-description , .container-right{
+.landing .profile-description , .container-right {
     color: #666774;
     padding-left: 12%;
 }
-.content-label{
+.content-label {
     font-family: 'Poppins', sans-serif;
     display: inline-flex;
     align-items: center;
@@ -114,7 +114,7 @@ body{
     font-size: 14px;
     color: #666774;
 }
-.content-label .dash{
+.content-label .dash {
     height: 2px;
     width: 10px;
     background-color: #666774;
@@ -126,16 +126,16 @@ body{
     font-size: 21px;
     word-spacing: 2px;
 }
-.desc-text{
+.desc-text {
     font-size: 14px;
     margin-top: 8%;
     font-family: 'Poppins', sans-serif;
     color: #666774;
 }
-.social-list{
-list-style: none;
-padding: 16% 5% 16% 5%  ;
-padding-left: 0;
+.social-list {
+    list-style: none;
+    padding: 16% 5% 16% 5%  ;
+    padding-left: 0;
 
 }
 .social-list li {
@@ -146,49 +146,49 @@ padding-left: 0;
     color: white;
     font-size: 24px;
 }
-.social-list li:first{
+.social-list li:first {
     margin-left: 0;
 }
-.profile-description h6 , .email-contact h6{
+.profile-description h6 , .email-contact h6 {
     color:#007bff;
     text-decoration: underline;
     font-family: 'Poppins', sans-serif;
 
 }
-.my-story-a, .email-contact, .stats,.stat-item{
+.my-story-a, .email-contact, .stats,.stat-item {
     display: inline-flex;
     padding: 8% 0;
 }
-.my-story-a span , .email-contact span{
+.my-story-a span , .email-contact span {
     margin-left: 16px;
     color:#007bff;
     /* border-bottom: 1px solid #007bff; */
 }
 
 /* Experience Stat section styles */
-.experience-stat{
+.experience-stat {
     background-color: #252634;
     padding: 8% 6%;
 }
 .email-contact {
-    margin-top: 14%;
+    margin-top: 3.2rem;
 }
-.stats  .count{
-font-size: 42px;
-color: var(--primary-color);   
-margin-bottom: .8rem;
+.stats  .count {
+    font-size: 4rem;
+    color: var(--primary-color);   
+    margin-bottom: .3rem;
 }
-.stats .stat-label{
+.stats .stat-label {
     margin-left: 1.5rem;
     color: white;
     font-size: .76rem;
     letter-spacing: .05rem;
 }
-.stat-item{
+.stat-item {
     margin-left: 14%;
     align-items: flex-end;
 
 }
-.stats .stat-item:first-child{
+.stats .stat-item:first-child{ 
     margin-left: 0;
 }
