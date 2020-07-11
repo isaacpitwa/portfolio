@@ -208,4 +208,10 @@ body{
 }
 .projects{
     background-color: var(--light-bg);
+    padding: 4% 15%;
+}
+.projects i{
+    color: aliceblue;
+    margin: 0.5rem  2rem;
+
 }
