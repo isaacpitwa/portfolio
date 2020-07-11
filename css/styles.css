@@ -213,5 +213,19 @@ body{
 .projects i{
     color: aliceblue;
     margin: 0.5rem  2rem;
-
+}
+ footer {
+    text-align: center;
+    padding: 4%;
+    background-color: #252634;
+    color: aliceblue;
+    font-family: var(--font-family);
+    padding-bottom: 12%; 
+}
+footer p{
+    font-weight: 400;
+    margin: 1rem; 
+}
+.list-center {
+    padding: 3% 40% 0% 43%;
 }
