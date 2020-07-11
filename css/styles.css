@@ -227,5 +227,24 @@ footer p{
     margin: 1rem; 
 }
 .list-center {
-    padding: 3% 40% 0% 43%;
+    padding: 3% 36% 0% 43%;
+}
+.input-container{
+    padding-top: 1rem;
+}
+label {
+    color: #EAEAEB;
+}
+.input-container input{
+    border: 0;
+    border-bottom: 1px solid #4C4E60 ;
+    background-color: #252634;
+    width:85%;
+    color: #666774;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
