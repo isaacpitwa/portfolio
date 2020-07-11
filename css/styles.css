@@ -208,4 +208,42 @@ body{
 }
 .projects{
     background-color: var(--light-bg);
+    padding: 4% 15%;
+}
+.projects i{
+    color: aliceblue;
+    margin: 0.5rem  2rem;
+}
+ footer {
+    text-align: center;
+    padding: 0 4% 12% 4% ;
+    background-color: #252634;
+    color: aliceblue;
+    font-family: var(--font-family);
+}
+footer p{
+    font-weight: 400;
+    margin: 1rem; 
+}
+.list-center {
+    padding: 3% 36% 0% 43%;
+}
+.input-container{
+    padding-top: 1rem;
+}
+label {
+    color: #EAEAEB;
+}
+.input-container input{
+    border: 0;
+    border-bottom: 1px solid #4C4E60 ;
+    background-color: #252634;
+    width:85%;
+    color: #666774;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
