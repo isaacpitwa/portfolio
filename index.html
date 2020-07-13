@@ -21,25 +21,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Isaac Pitwa</title>
 </head>
 
 <body>
 
     <!-- Heaader -->
-    <div class="header">
+    <div class="header fadein">
         <a href="#" class="logo">
             <img src="./images/logo.png" />
         </a>
         <div class="header-nav-list">
-            <a href="#" class="active">Home</a>
+            <a href="#landing" class="active">Home</a>
             <a href="#aboutMe">About Me</a>
             <a href="#works">Works</a>
             <button class="btn btn-primary">Hire Me</button>
         </div>
     </div>
     <!-- Landing Area -->
-    <section class="landing row">
+    <section class="landing row fadein" id="landing">
         <div class="col-md-6 col-lg-6 profile">
             <div class="name">
                 <p>Isaac Pitwa<br>Nyonyintono<span class="dot"></span></p>
@@ -68,7 +70,7 @@
         </div>
     </section>
 
-    <section class="experience-stat row">
+    <section class="experience-stat row" id="aboutMe">
         <div class="col-md-6 col-lg-6">
             <div class="content-label">
                 <div class="dash"></div><span>Contact</span>
@@ -108,7 +110,7 @@
             <h4>Card Three</h4>
         </div>
     </div> -->
-    <section class="projects">
+    <section class="projects" id="works">
         <div class="row">
             <span><i class="fab fa-react fa-5x"></i></span>
             <span><i class="fab fa-angular fa-5x"></i></span>
@@ -124,7 +126,7 @@
             <span><i class="fab fa-js fa-5x"></i></span>
         </div>
     </section>
-    <section class="experience-stat row">
+    <section class="experience-stat row" id="contact">
         <div class="col-md-6 col-lg-6">
             <h4>Got a project?<br>Let's talk.</h4>
             <p class="desc-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Impedit voluptatem
@@ -137,30 +139,32 @@
             <h4>Estimate Your project?<br>Let me know here.</h4>
             <div class="input-container">
                 <label for="name">What's your name ?</label><br>
-                <input type="text" name="name" id="name"/>
+                <input type="text" name="name" id="name" />
             </div>
             <div class="input-container">
-                <label for="name">Your fancy  email </label><br>
-                <input type="text" name="email" id="email"/>
+                <label for="name">Your fancy email </label><br>
+                <input type="text" name="email" id="email" />
             </div>
             <div class="input-container">
                 <label for="name">Tell me about your project </label><br>
-                <input type="text" name="message" id="message"/>
+                <input type="text" name="message" id="message" />
             </div>
         </div>
     </section>
     <footer>
         <img src="./images/logo.png" />
         <p> <strong> Thanks for scrolling,</strong> that's it folks .</p>
-            <ul class="social-list list-center">
-                <li><a href="https://github.com/isaacpitwa"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="https://twitter.com/IsaacPitwa"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/isaac-pitwa-nyonyintono-275464155/"><i
-                            class="fab fa-linkedin-in"></i></a></li>
-    
-            </ul>
+        <ul class="social-list list-center">
+            <li><a href="https://www.facebook.com/nyonyintono.isaac.1/" target="_blank"><i
+                        class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://twitter.com/IsaacPitwa" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com/isaacpitwa/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/isaac-pitwa-nyonyintono-275464155/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a></li>
+
+        </ul>
     </footer>
 </body>
-
+<script src="./js/animate.js"></script>
 </html>

@@ -13,6 +13,10 @@
     }
 *{
     font-family: 'neue-Haas',Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     background-color: var(--light-bg)
@@ -210,6 +214,9 @@ body{
     background-color: var(--light-bg);
     padding: 4% 15%;
 }
+.projects .row{
+    margin: 0;
+}
 .projects i{
     color: aliceblue;
     margin: 0.5rem  2rem;
@@ -246,4 +253,16 @@ select:focus,
 textarea:focus,
 button:focus {
     outline: none;
+}
+/* Animation */
+.fadein {
+    opacity: 0;
+    -moz-transition: opacity 1.5s;
+    -webkit-transition: opacity 1.5s;
+    -o-transition: opacity 1.5s;
+    transition: opacity 1.5s;
+}
+
+body.loaded .fadein {
+    opacity: 1;
 }
